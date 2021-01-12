@@ -13,6 +13,15 @@
 # end
 
 class Dog
+
+  def name = (dog_name)
+    @dog_name = dog name
+  end
+
+  def name
+    @dog_name
+  end
+  
   def bark
     puts "Woof!"
   end
