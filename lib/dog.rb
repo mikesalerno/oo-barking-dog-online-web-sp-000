@@ -14,12 +14,12 @@
 
 
 class Dog
-  def dog_name=(dog_name)
-    @dog_name = dog_name
+  def name=(dog_name)
+    @dogs_name = dogs_name
   end
 
-  def dog_name
-    @dog_name
+  def name
+    @dogs_name
   end
 
   def bark
