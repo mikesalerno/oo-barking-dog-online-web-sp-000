@@ -12,16 +12,18 @@
 #   end
 # end
 
-class dogs
+
+class Dog
   def name=(dog_name)
     @dog_name = dog_name
   end
 
-  # def name
-  #   @dog_name
-  # end
+  def name
+    @dog_name
+  end
 
-#   def bark
-#     puts "woof!"
-#   end
+  def bark
+    puts "woof!"
+  end
+
 end
